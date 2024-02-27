@@ -3,6 +3,7 @@ const SECRET_CODE = 'some-secret-key';
 const ALLOWED_CORS = [
   // 'https://diploma.maribel.nomoredomains.club',
   // 'http://diploma.maribel.nomoredomains.club',
+  'https://movies-explorer-frontend-gps9.onrender.com',
   'http://localhost:3000',
   'http://localhost:3001',
 ];

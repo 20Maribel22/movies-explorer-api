@@ -13,7 +13,7 @@ const limiter = require('./middlewares/limiter');
 const { PORT = 3001 } = process.env;
 const app = express();
 
-mongoose.connect('mongodb+srv://admin:K9o4HPGZ9tAeGZIN@cluster0.r3zlyri.mongodb.net/moviesdb?retryWrites=true&w=majority');
+mongoose.connect(process.env.MONGO_URL);
 
 app.use(helmet());
 app.use(cors);
