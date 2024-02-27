@@ -29,4 +29,4 @@
 
  IP: 158.160.26.220 
 
-Backend: https://api.diploma.maribel.nomoredomains.club
+Backend: https://movies-explorer-api-f1py.onrender.com
