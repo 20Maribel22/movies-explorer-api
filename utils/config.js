@@ -1,8 +1,8 @@
 const SECRET_CODE = 'some-secret-key';
 
 const ALLOWED_CORS = [
-  'https://diploma.maribel.nomoredomains.club',
-  'http://diploma.maribel.nomoredomains.club',
+  // 'https://diploma.maribel.nomoredomains.club',
+  // 'http://diploma.maribel.nomoredomains.club',
   'http://localhost:3000',
   'http://localhost:3001',
 ];

@@ -55,7 +55,7 @@ const movieSchema = new mongoose.Schema(
     },
     movieId: {
       type: Number,
-      equired: true,
+      required: true,
     },
     nameRU: {
       type: String,
